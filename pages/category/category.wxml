@@ -1,0 +1,130 @@
+<!--pages/category/category.wxml-->
+<view class="container">
+  <view class="category-container">
+  	<view class="category-content">
+  		<view class="category-title">
+  			<text class="line line-left"></text>
+  			<text>上装</text>
+  			<text class="line line-right"></text>
+  		</view>
+  		<view class="category-list">
+  			<view class="category-option" bindtap="bindViewTap">
+  				<view class="category-img">
+  					<image src="/static/image/icon_dadiyi.png" mode="widthFix"></image>
+  				</view>
+  				<view>打底衣</view>
+  			</view>
+  			<view class="category-option" bindtap="bindViewTap">
+  				<view class="category-img">
+  					<image src="https://pocket-web-1256444651.cos.ap-guangzhou.myqcloud.com/icon_xiaoshan.png" mode="widthFix"></image>
+  				</view>
+  				<view>小衫</view>
+  			</view>
+  			<view class="category-option" bindtap="bindViewTap">
+  				<view class="category-img">
+  					<image src="https://pocket-web-1256444651.cos.ap-guangzhou.myqcloud.com/icon_chenshan.png" mode="widthFix"></image>
+  				</view>
+  				<view>衬衫</view>
+  			</view>
+  			<view class="category-option" bindtap="bindViewTap">
+  				<view class="category-img">
+  					<image src="https://pocket-web-1256444651.cos.ap-guangzhou.myqcloud.com/icon_waitao.png" mode="widthFix"></image>
+  				</view>
+  				<view>外套</view>
+  			</view>
+  			<view class="category-option" bindtap="bindViewTap">
+  				<view class="category-img">
+  					<image src="https://pocket-web-1256444651.cos.ap-guangzhou.myqcloud.com/icon_fengyi.png" mode="widthFix"></image>
+  				</view>
+  				<view>风衣</view>
+  			</view>
+        <view class="category-option" bindtap="bindViewTap">
+          <view class="category-img">
+            <image src="https://pocket-web-1256444651.cos.ap-guangzhou.myqcloud.com/icon_leisi.png" mode="widthFix"></image>
+          </view>
+          <view>蕾丝/雪纺衫</view>
+        </view>
+        <view class="category-option" bindtap="bindViewTap">
+          <view class="category-img">
+            <image src="https://pocket-web-1256444651.cos.ap-guangzhou.myqcloud.com/icon_zhenzhishan.png" mode="widthFix"></image>
+          </view>
+          <view>针织衫</view>
+        </view>
+  		</view>
+
+  		<view class="category-title">
+  			<text class="line line-left"></text>
+  			<text>下装</text>
+  			<text class="line line-right"></text>
+  		</view>
+        
+      <view class="category-list">
+  			<view class="category-option" bindtap="bindViewTap">
+  				<view class="category-img category-img-center">
+  					<image src="/static/image/icon_duanku.png" mode="widthFix"></image>
+  				</view>
+  				<view>短裤</view>
+  			</view>
+  			<view class="category-option" bindtap="bindViewTap">
+  				<view class="category-img category-img-center">
+  					<image src="https://pocket-web-1256444651.cos.ap-guangzhou.myqcloud.com/icon_niuzaiku.png" mode="widthFix"></image>
+  				</view>
+  				<view>牛仔裤</view>
+  			</view>
+  			<view class="category-option" bindtap="bindViewTap">
+  				<view class="category-img category-img-center">
+  					<image src="https://pocket-web-1256444651.cos.ap-guangzhou.myqcloud.com/icon_xiku.png" mode="widthFix"></image>
+  				</view>
+  				<view>西裤</view>
+  			</view>
+  			<view class="category-option" bindtap="bindViewTap">
+  				<view class="category-img category-img-center">
+  					<image src="https://pocket-web-1256444651.cos.ap-guangzhou.myqcloud.com/icon_liantiku.png" mode="widthFix"></image>
+  				</view>
+  				<view>连体裤</view>
+  			</view>
+  			<view class="category-option" bindtap="bindViewTap">
+  				<view class="category-img category-img-center">
+  					<image src="https://pocket-web-1256444651.cos.ap-guangzhou.myqcloud.com/icon_beidaiku.png" mode="widthFix"></image>
+  				</view>
+  				<view>背带裤</view>
+  			</view>
+        <view class="category-option" bindtap="bindViewTap">
+          <view class="category-img category-img-center">
+            <image src="https://pocket-web-1256444651.cos.ap-guangzhou.myqcloud.com/icon_dadiku.png" mode="widthFix"></image>
+          </view>
+          <view>打底裤</view>
+        </view>
+
+  		</view>
+      
+      <view class="category-title">
+        <text class="line line-left"></text>
+        <text>裙装</text>
+        <text class="line line-right"></text>
+      </view>
+      
+      <view class="category-list">
+        <view class="category-option" bindtap="bindViewTap">
+          <view class="category-img category-img-bottom">
+            <image src="https://pocket-web-1256444651.cos.ap-guangzhou.myqcloud.com/icon_lianyiqun.png" mode="widthFix"></image>
+          </view>
+          <view>连衣裙</view>
+        </view>
+        <view class="category-option" bindtap="bindViewTap">
+          <view class="category-img category-img-bottom">
+            <image src="https://pocket-web-1256444651.cos.ap-guangzhou.myqcloud.com/icon_banshenqun.png" mode="widthFix"></image>
+          </view>
+          <view>半身裙</view>
+        </view>
+        <view class="category-option" bindtap="bindViewTap">
+          <view class="category-img category-img-bottom">
+            <image src="https://pocket-web-1256444651.cos.ap-guangzhou.myqcloud.com/icon_beidaiqun.png" mode="widthFix"></image>
+          </view>
+          <view>背带裙</view>
+        </view>
+      </view>
+
+  	</view>
+  </view>
+</view>

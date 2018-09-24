@@ -1,0 +1,56 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/category/category",
+    "pages/center/center",
+    "pages/match/match",
+    "pages/detail/detail",
+    "pages/category-detail/category-detail",
+    "pages/submit-order/submit-order",
+    "pages/add-address/add-address",
+    "pages/collect/collect",
+    "pages/check-order/check-order",
+    "pages/add-product/add-product",
+    "pages/message/message",
+    "pages/account/account",
+    "pages/guide/guide"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fe3a00",
+    "navigationBarTitleText": "口袋档口",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#333333",
+    "selectedColor": "#fe3a00",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/static/image/icon_home.png",
+        "selectedIconPath": "/static/image/icon_home2.png"
+      },
+      {
+        "pagePath": "pages/category/category",
+        "text": "分类",
+        "iconPath": "/static/image/icon_fenlei.png",
+        "selectedIconPath": "/static/image/icon_fenlei2.png"
+      },
+      {
+        "pagePath": "pages/match/match",
+        "text": "穿搭",
+        "iconPath": "/static/image/icon_chuanda.png",
+        "selectedIconPath": "/static/image/icon_chuanda2.png"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "text": "我的",
+        "iconPath": "/static/image/icon_me.png",
+        "selectedIconPath": "/static/image/icon_me2.png"
+      }
+    ]
+  }
+}

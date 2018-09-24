@@ -1,0 +1,8 @@
+<!--pages/collect/collect.wxml-->
+<view class="container">
+	<view class="empty-data">
+		<image src="/static/image/icon_box3.png" mode="widthFix"></image>
+		<view>这里空空如也哦~</view>
+		<view class="btn" bindtap="categoryPage">去逛逛</view>
+	</view>
+</view>

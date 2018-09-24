@@ -1,0 +1,21 @@
+<!--pages/add-product/add-product.wxml-->
+<view class="container">
+	<view class="product-container">
+	  <view class="product-item">
+		<image src="https://pocket-web-1256444651.cos.ap-guangzhou.myqcloud.com/icon_shoucangzhaopian.png" class="product-img"></image>
+		<view style="flex: 1;">
+			<view>夏季网纱超薄外套透视装唯一服饰</view>
+			<view class="product-bottom">
+				<view class="price">￥399</view>
+				<view class="product-right">
+					<text class="reduce" bindtap="reduceNum">-</text>
+					<text class="product-num">{{num}}</text>
+					<text class="add" bindtap="addNum">+</text>
+				</view>
+			</view>
+		</view>
+	  </view>
+
+	</view>
+	<view class="product-btn">我要补货</view>
+</view>

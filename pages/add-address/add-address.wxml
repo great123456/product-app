@@ -1,0 +1,36 @@
+<!-- 添加收货地址 -->
+<view class="container">
+	<view class="address-container">
+		<view class="address-item">
+			<text class="address-title">收件人:</text>
+			<input placeholder="请输入收件人" class="address-put"/>
+		</view>
+		<view class="address-item">
+			<text class="address-title">手机号:</text>
+			<input placeholder="请输入手机号" class="address-put"/>
+		</view>
+		<view class="address-item">
+			<text class="address-title">所在地:</text>
+			<view style="flex:1;">
+				<view class="section" style="display: inline-block;width: 500rpx;">
+				  <picker mode="region" bindchange="bindRegionChange" value="{{region}}" custom-item="{{customItem}}">
+				    <view class="picker">
+				      {{region[0]}} {{region[1]}} {{region[2]}}
+				    </view>
+				  </picker>
+				</view>
+				<!-- <view style="display: inline-block;float: right;">
+					<text>请选择</text>
+					<image src="/static/image/icon_xiabu.png" class="icon-arrow" mode="widthFix"></image>
+				</view> -->
+			</view>
+		</view>
+		<view class="address-item">
+			<text class="address-title">详情地址:</text>
+			<input placeholder="请输入详细地址信息,如道路,单元等" class="address-put"/>
+		</view>
+	</view>
+	<view class="address-btn">
+		<text>保存</text>
+	</view>
+</view>

@@ -1,0 +1,54 @@
+<!--pages/message/message.wxml-->
+<view class="container">
+	<view class="message-container">
+		<view class="message-title">热门问题</view>
+		<view class="message-item">
+			<text class="line"></text>
+			<text class="message-text" bindtap="selectTab">可以退货吗?</text>
+			<image class="message-icon" src="/static/image/icon_xiabu.png" mode="widthFix"></image>
+			<view class="message-remark" wx:if="{{showTab}}">
+				口袋档口是买手制优选批发平台，旨在为全国店主提供优质货源供给。专业买手每日从一级批发市场精选商品后提供给店主拼单拿货仓库检验员会不支持退换货在发货前进行抽查质检。但也必须遵从一级批发档口的行业规则为你解决。恳请您的理解如有特殊情况可联系口袋档口线上客服并万分感谢您对口袋档口的支持！
+			</view>
+		</view>
+		<view class="message-item">
+			<text class="line"></text>
+			<text class="message-text" bindtap="showTab2">尺码怎么选?</text>
+			<image class="message-icon" src="/static/image/icon_xiabu.png" mode="widthFix"></image>
+			<view class="message-remark" wx:if="{{showTab2}}">
+				因为口袋档口的货源都来自广州，杭州等全国一级批发市场或者厂家的源头货，一级批发档口不提供尺码表，需要店主拿货后自行测量具体尺寸进行销售的哦一无特殊说明都是正常尺码，如有偏大偏小会在商品详情备注。由于一级批发市场档口不接受退换货，尺码不合适是不能退换货哦，自穿的慎拍哈
+			</view>
+		</view>
+		<view class="message-item">
+			<text class="line"></text>
+			<text class="message-text" bindtap="showTab3">怎么申请补货?</text>
+			<image class="message-icon" src="/static/image/icon_xiabu.png" mode="widthFix"></image>
+			<view class="message-remark" wx:if="{{showTab3}}">
+				打开口袋档口 【 我的 】 一 【 快速补货 】 ，找到您要补货的商品，正常下单付款即可；您也可以在已完成订单里直接补货！
+			</view>
+		</view>
+		<view class="message-item">
+			<text class="line"></text>
+			<text class="message-text" bindtap="showTab5">运费怎么计算?</text>
+			<image class="message-icon" src="/static/image/icon_xiabu.png" mode="widthFix"></image>
+			<view class="message-remark" wx:if="{{showTab5}}">
+				您下单后，系统根据您订单商品先估算一个重量，按照快递公司的收费标准预收运费，待会您发货结算后。您多付的运费会退回您的口袋钱包，您下次进货使用或者提现到支付宝都可以，不够的运费则由口袋补贴，您无需再支付。感谢您对口袋的信赖！
+			</view>
+		</view>
+		<view class="message-item">
+			<text class="line"></text>
+			<text class="message-text" bindtap="showTab6">十三行市场介绍?</text>
+			<image class="message-icon" src="/static/image/icon_xiabu.png" mode="widthFix"></image>
+			<view class="message-remark" wx:if="{{showTab6}}">
+				广州十三行服装批发市场就直接对接厂家的一级批发市场，主要做中档，中偏高档的精品女装，适合追求品质的快时尚女装实体店或网店；口袋买手团队每天从几千家十三行一级批发档口发现新款爆款，帮你把关品质
+			</view>
+		</view>
+		<view class="message-item">
+			<text class="line"></text>
+			<text class="message-text" bindtap="showBottom">为什么要用口袋档口拿货?</text>
+			<image class="message-icon" src="/static/image/icon_xiabu.png" mode="widthFix"></image>
+			<view class="message-remark" wx:if="{{showBottom}}">
+				【 拿货更省力 】 您再也不用奔波到批发市场拿货了，只需动动手指跑遍广州杭州货源地！ 【 比批发市场价更低 】 口袋的货源均来自厂家或者全国一级批发市场的源头货，同款同品牌比您各省市的批发市场便宜 30 ％左右； 【 款式更新更好卖 】 每天口袋顶尖的买手团队会到批发市场帮你挑选最新好款把控质量，每天新增 1 000 ＋新款！
+			</view>
+		</view>
+	</view>
+</view>

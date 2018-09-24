@@ -1,0 +1,41 @@
+<!--pages/check-order/check-order.wxml-->
+<view class="container">
+	<view class="order-header">
+		<image src="/static/image/icon_beijing.png" class="banner" mode="widthFix"></image>
+		<view class="order-content">
+			<view class="order-item">
+				<view>下单时间</view>
+				<view class="order-item-bottom">7天内</view>
+			</view>
+			<view class="order-item">
+				<view>购买件数</view>
+				<view class="order-item-bottom">0件</view>
+			</view>
+			<view class="order-item">
+				<view>已发货</view>
+				<view class="order-item-bottom">0件</view>
+			</view>
+			<view class="order-item">
+				<view>未发货</view>
+				<view class="order-item-bottom">0件</view>
+			</view>
+		</view>
+	</view>
+
+	<view class="order-container">
+		<view class="order-list">
+			<view class="order-tab" wx:if="{{type == 1}}">
+				<view class="tab-active" style="margin-right: 30rpx;" data-type="1" bindtap="selectType">未发货</view>
+				<view style="margin-left: 30rpx;" data-type="2" bindtap="selectType">已发货</view>
+			</view>
+			<view class="order-tab" wx:else>
+				<view style="margin-right: 30rpx;" data-type="1" bindtap="selectType">未发货</view>
+				<view class="tab-active" style="margin-left: 30rpx;" data-type="2" bindtap="selectType">已发货</view>
+			</view>
+			<view class="empty-order">
+				<image src="/static/image/icon_box.png" mode="widthFix"></image>
+				<view>暂未发货商品</view>
+			</view>
+		</view>
+	</view>
+</view>

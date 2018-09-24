@@ -1,0 +1,17 @@
+<!--pages/guide/guide.wxml-->
+<view class="container">
+	<view class="guide-content">
+		<button open-type="contact" class="contact-btn">在线客服</button>
+		<view class="contact-text">客服热线:400*******</view>
+		<view class="guide-hint">温馨提示:客服工作时间8:30-22:00</view>
+		<image src="https://pocket-web-1256444651.cos.ap-guangzhou.myqcloud.com/banner_pinhuo.png" class="banner" mode="widthFix"></image>
+		<view class="guide-title">为什么生意好的精明买手都在用口袋档口?</view>
+		<view class="guide-text">【 只上第一手货源 】 口袋通过连接买手和全国最大的女装一级批发市场：广州十三行，让买家跳过二级批发市场，直接拿第一手货源，同款比各省市批发市场便宜 30 ％一 50 % ; 【 随时随地拿手机看款拿货 】 再也不疲惫地隔三差五跑批发市场，用口袋档口，拿货省时省力。 【 发现市场最新款 】 口袋有一支 1 00 人的资深买手团队，每天帮你到一级批发市场搜罗最新款，每天你都能看到 500 ＋最新款，移动互联网时代比竞争对手先上新款就是优势！</view>
+	</view>
+
+	<view class="guide-content">
+		<image src="https://pocket-web-1256444651.cos.ap-guangzhou.myqcloud.com/banner_yunfei.png" class="banner" mode="widthFix"></image>
+		<view class="guide-title">运费说明</view>
+		<view class="guide-text">口袋档口根据订单商司实收价格多退少补品系统预估重量，预收运费，发货后根据快递公司实收价格多退少补</view>
+	</view>
+</view>

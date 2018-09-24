@@ -1,0 +1,11 @@
+/* pages/match/match.wxss */
+.match-container{
+	padding:20rpx;
+}
+.match-option{
+	width: 100%;
+	margin-bottom: 20rpx;
+}
+.match-option image{
+	width: 100%;
+}

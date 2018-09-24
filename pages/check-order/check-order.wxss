@@ -1,0 +1,55 @@
+/* pages/check-order/check-order.wxss */
+.order-header{
+	position: relative;
+}
+.order-content{
+	width: 100%;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	color: #ffffff;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	padding-top: 20rpx;
+}
+.order-item{
+	width: 25%;
+}
+.order-item-bottom{
+	margin-top: 30rpx;
+}
+.banner{
+	width: 100%;
+}
+.order-container{
+	padding:0rpx 20rpx;
+}
+.order-list{
+	background: #ffffff;
+	height: 1000rpx;
+	transform: translateY(-300rpx);
+}
+.order-tab{
+	padding:0rpx 60rpx;
+	display: flex;
+	justify-content: center;
+	font-size: 36rpx;
+	line-height: 39px;
+}
+.order-tab view{
+	width: 130rpx;
+	text-align: center;
+}
+.tab-active{
+	color: #fe3a00;
+	border-bottom: 2px solid #fe3a00;
+}
+.empty-order{
+	margin-top: 200rpx;
+	text-align: center;
+	color: #b5b6b7;
+}
+.empty-order image{
+	width: 200rpx;
+}

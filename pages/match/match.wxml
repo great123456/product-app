@@ -1,0 +1,26 @@
+<!-- 穿搭 -->
+<view class="container">
+	<view class="match-container">
+		<view class="match-option">
+			<image src="/static/image/banner-one.png" mode="widthFix"></image>
+		</view>
+		<view class="match-option">
+			<image src="https://pocket-web-1256444651.cos.ap-guangzhou.myqcloud.com/banner-two.png" mode="widthFix"></image>
+		</view>
+		<view class="match-option">
+			<image src="https://pocket-web-1256444651.cos.ap-guangzhou.myqcloud.com/banner-three.png" mode="widthFix"></image>
+		</view>
+		<view class="match-option">
+			<image src="https://pocket-web-1256444651.cos.ap-guangzhou.myqcloud.com/banner-four.png" mode="widthFix"></image>
+		</view>
+		<view class="match-option">
+			<image src="https://pocket-web-1256444651.cos.ap-guangzhou.myqcloud.com/banner-five.png" mode="widthFix"></image>
+		</view>
+		<view class="match-option">
+			<image src="https://pocket-web-1256444651.cos.ap-guangzhou.myqcloud.com/banner-six.png" mode="widthFix"></image>
+		</view>
+		<view class="match-option">
+			<image src="https://pocket-web-1256444651.cos.ap-guangzhou.myqcloud.com/banner-seven.png" mode="widthFix"></image>
+		</view>
+	</view>
+</view>

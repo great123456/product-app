@@ -1,0 +1,90 @@
+<!-- 分类详情 -->
+<view class="container">
+	<view class="category-header">
+		<view>销量</view>
+		<view>
+			<text>批发价</text>
+			<image src="/static/image/icon_shangxia.png"></image>
+		</view>
+		<view>
+			<text>筛选</text>
+			<image src="/static/image/icon_shaixuan.png"></image>
+		</view>
+	</view>
+
+	<view class="recommend">
+	  <view class="recommend-option" bindtap="bindViewTap">
+	    <image src="/static/image/icon_shangpin.png"></image>
+	    <view class="option-text">
+	      <view>夏季网纱超薄外套透视装</view>
+	      <view class="flex-between mr10">
+	        <text class="price">￥299</text>
+	        <text class="number">已拼99件</text>
+	      </view>
+	      <view class="option-line"></view>
+	    </view>
+	  </view>
+	  
+	  <view class="recommend-option" bindtap="bindViewTap">
+	    <image src="https://pocket-web-1256444651.cos.ap-guangzhou.myqcloud.com/icon_shangpin2.png"></image>
+	    <view class="option-text">
+	      <view>夏季网纱超薄外套透视装</view>
+	      <view class="flex-between mr10">
+	        <text class="price">￥299</text>
+	        <text class="number">已拼99件</text>
+	      </view>
+	      <view class="option-line"></view>
+	    </view>
+	  </view>
+	  
+	  <view class="recommend-option" bindtap="bindViewTap">
+	    <image src="https://pocket-web-1256444651.cos.ap-guangzhou.myqcloud.com/icon_shangpin3.png"></image>
+	    <view class="option-text">
+	      <view>夏季网纱超薄外套透视装</view>
+	      <view class="flex-between mr10">
+	        <text class="price">￥299</text>
+	        <text class="number">已拼99件</text>
+	      </view>
+	      <view class="option-line"></view>
+	    </view>
+	  </view>
+
+	  <view class="recommend-option" bindtap="bindViewTap">
+	    <image src="https://pocket-web-1256444651.cos.ap-guangzhou.myqcloud.com/icon_shangpin4.png"></image>
+	    <view class="option-text">
+	      <view>夏季网纱超薄外套透视装</view>
+	      <view class="flex-between mr10">
+	        <text class="price">￥299</text>
+	        <text class="number">已拼99件</text>
+	      </view>
+	      <view class="option-line"></view>
+	    </view>
+	  </view>
+
+	  <view class="recommend-option" bindtap="bindViewTap">
+	    <image src="https://pocket-web-1256444651.cos.ap-guangzhou.myqcloud.com/icon_shangpin5.png"></image>
+	    <view class="option-text">
+	      <view>夏季网纱超薄外套透视装</view>
+	      <view class="flex-between mr10">
+	        <text class="price">￥299</text>
+	        <text class="number">已拼99件</text>
+	      </view>
+	      <view class="option-line"></view>
+	    </view>
+	  </view>
+
+	  <view class="recommend-option" bindtap="bindViewTap">
+	    <image src="https://pocket-web-1256444651.cos.ap-guangzhou.myqcloud.com/icon_shangpin6.png"></image>
+	    <view class="option-text">
+	      <view>夏季网纱超薄外套透视装</view>
+	      <view class="flex-between mr10">
+	        <text class="price">￥299</text>
+	        <text class="number">已拼99件</text>
+	      </view>
+	      <view class="option-line"></view>
+	    </view>
+	  </view>
+
+	</view>
+
+</view>

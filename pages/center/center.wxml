@@ -1,0 +1,121 @@
+<!-- 个人中心 -->
+<view class="container">
+	<view class="center-header">
+	  <view class="flex-start">
+	  	  <view class="user-avatar" bindtap="accountPage">
+	  		<open-data type="userAvatarUrl" style="border-radius: 100rpx;"></open-data>
+	  	  </view>
+	  	  <view class="user-info" bindtap="accountPage">
+	  	  	<open-data type="userNickName" style="margin-left: 30rpx;"></open-data>
+	  	  	<text>积分值:1000</text>
+	  	  </view>
+	  </view>
+	  <view class="center-message">
+	  	<image src="/static/image/icon_xiaoxi.png" mode="widthFix" bindtap="messagePage"></image>
+	  </view>
+	</view>
+
+	<view class="center-container">
+		<view class="center-order">
+			<view class="flex-between" style="padding-bottom:20rpx;border-bottom: 1px solid #f5f5f5;">
+				<text class="order-title">我的订单</text>
+				<view>
+					<text class="check-all">查看全部</text>
+					<image src="/static/image/icon_xiabu.png" mode="widthFix" style="width:16rpx;position: relative;top: 5rpx;"></image>
+				</view>
+			</view>
+			<view class="center-tab">
+				<view class="center-option">
+					<image src="/static/image/icon_daifukuan.png"></image>
+					<view>代付款</view>
+				</view>
+				<view class="center-option">
+					<image src="/static/image/icon_daifahuo.png"></image>
+					<view>代发货</view>
+				</view>
+				<view class="center-option">
+					<image src="/static/image/icon_daishouhuo.png"></image>
+					<view>代收货</view>
+				</view>
+				<view class="center-option">
+					<image src="/static/image/icon_tuikuan.png"></image>
+					<view>退款</view>
+				</view>
+			</view>
+		</view>
+
+		<view class="center-order" style="margin-top: 30rpx;">
+			<view class="center-tab-container">
+				<view class="tab-option" bindtap="collectPage">
+					<image src="/static/image/icon_shoucangjia.png"></image>
+					<view>收藏夹</view>
+				</view>
+				<view class="tab-option" bindtap="addProductPage">
+					<image src="/static/image/icon_buhuo2.png"></image>
+					<view>快速补货</view>
+				</view>
+				<view class="tab-option">
+					<image src="/static/image/icon_zuji.png"></image>
+					<view>足迹</view>
+				</view>
+				<view class="tab-option" bindtap="checkOrderPage">
+					<image src="/static/image/icon_dingdangenzong.png"></image>
+					<view>订单追踪</view>
+				</view>
+				<view class="tab-option" bindtap="guidePage">
+					<image src="/static/image/icon_bangzhu.png"></image>
+					<view>口袋帮助</view>
+				</view>
+				<view class="tab-option">
+					<image src="/static/image/icon_yijian.png"></image>
+					<view>提点意见</view>
+				</view>
+				<view class="tab-option">
+					<image src="/static/image/icon_zhangdan.png"></image>
+					<view>口袋账单</view>
+				</view>
+				<view class="tab-option">
+					<image src="/static/image/icon_lianxikefu.png"></image>
+					<view class="contact">
+						<text>联系客服</text>
+						<button open-type="contact" class="contact-btn"></button>
+					</view>
+				</view>
+			</view>
+		</view>
+
+	</view>
+
+	<view class="recommend-title">
+	    <text class="line line-left"></text>
+	    <text>猜你喜欢</text>
+	    <text class="line line-right"></text>
+	</view>
+	<view class="recommend">
+	  <view class="recommend-option" bindtap="bindViewTap">
+	    <image src="/static/image/icon_shangpin.png"></image>
+	    <view class="option-text">
+	      <view>夏季网纱超薄外套透视装</view>
+	      <view class="flex-between mr10">
+	        <text class="price">￥299</text>
+	        <text class="number">已拼99件</text>
+	      </view>
+	      <view class="option-line"></view>
+	    </view>
+	  </view>
+	 
+	  <view class="recommend-option" bindtap="bindViewTap">
+	    <image src="https://pocket-web-1256444651.cos.ap-guangzhou.myqcloud.com/icon_shangpin16.png"></image>
+	    <view class="option-text">
+	      <view>夏季网纱超薄外套透视装</view>
+	      <view class="flex-between mr10">
+	        <text class="price">￥299</text>
+	        <text class="number">已拼99件</text>
+	      </view>
+	      <view class="option-line"></view>
+	    </view>
+	  </view>
+
+	</view>
+	
+</view>

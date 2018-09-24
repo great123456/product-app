@@ -1,0 +1,162 @@
+<!-- 商品详情 -->
+<view class="container">
+	<view class="banner">
+	  <swiper indicator-dots="{{indicatorDots}}"
+	    indicator-dots
+        circular
+	    indicator-color="#999999"
+	    indicator-active-color="#fd3a02"
+	    autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" style="height: 400rpx;">
+	    <block wx:for="{{imgUrls}}"  wx:key="*this">
+	      <swiper-item>
+	        <image src="{{item}}" class="slide-image"/>
+	      </swiper-item>
+	    </block>
+	  </swiper>
+	</view>
+    
+    <view class="basic-message">
+    	<view>夏季网纱超薄外套透视装纯色V领针织上衣</view>
+    	<view class="basic-tab">
+    		<text>十三行3楼</text>
+    		<text>MUMA</text>
+    		<text>面料舒适</text>
+    	</view>
+    	<view>
+    		<text>口袋价:</text>
+    		<text class="detail-price">￥88.88</text>
+    	</view>
+    	<view class="basic-line"></view>
+    	<view class="basic-text">
+    		<text>5件成团,已拼16件</text>
+    		<text>成团后,买手向档口拿货</text>
+    	</view>
+    </view>
+
+    <view class="advantage-content">
+    	<view class="advantage-item">
+    		<image mode="widthFix" src="/static/image/icon_dagou.png"></image>
+    		<text>买手精选</text>
+    	</view>
+    	<view class="advantage-item">
+    		<image mode="widthFix" src="/static/image/icon_dagou.png"></image>
+    		<text>厂家源头货</text>
+    	</view>
+    	<view class="advantage-item">
+    		<image mode="widthFix" src="/static/image/icon_dagou.png"></image>
+    		<text>48小时发货</text>
+    	</view>
+    </view>
+
+    <view class="detail-item">
+    	<view class="remark-title">
+    		<text class="line line-left"></text>
+    		<text>拼单流程</text>
+    		<text class="line line-right"></text>
+    	</view>
+    	<view class="remark-img">
+    		<image mode="widthFix" src="/static/image/icon_pindanliucheng.png"></image>
+    	</view>
+    	<view class="remark-text">部分商品因货源紧张会存在断货情况,若最终采购失败,我们会第一时间为您退款</view>
+    </view>
+
+    <view class="detail-item">
+    	<view class="detail-title">商品信息</view>
+    	<view class="product-content">
+    		<view class="flex-between">
+    			<text>分类:针织衫</text>
+    			<text>颜色:灰色,卡色</text>
+    		</view>
+    		<view class="flex-between">
+    			<text>面料:针织</text>
+    			<text>尺寸:均码</text>
+    		</view>
+    		<view class="product-item">
+    			<text>长度偏差:</text>
+    			<text class="product-text">偏短</text>
+    			<text class="product-text active">正常</text>
+    			<text class="product-text">偏长</text>
+    		</view>
+    		<view class="product-item">
+    			<text>尺码偏差:</text>
+    			<text class="product-text">偏小</text>
+    			<text class="product-text active">正常</text>
+    			<text class="product-text">偏大</text>
+    		</view>
+    		<view class="product-item">
+    			<text>厚薄指数:</text>
+    			<text class="product-text">薄</text>
+    			<text class="product-text active">正常</text>
+    			<text class="product-text">厚</text>
+    		</view>
+    		<view class="product-item">
+    			<text>弹性指数:</text>
+    			<text class="product-text">无弹</text>
+    			<text class="product-text">微弹</text>
+    			<text class="product-text active">弹性</text>
+    		</view>
+    	</view>
+    </view>
+
+    <view class="detail-item">
+    	<view class="detail-title">尺码信息</view>
+    	<view>
+    		<view style="margin-top: 26rpx;">试穿报告</view>
+    		<view class="message-container">
+    			<view class="detail-message">
+    				<text class="message-top">身高/cm</text>
+    				<text class="message-bottom">165</text>
+    			</view>
+    			<view class="detail-message">
+    				<text class="message-top">体重/kg</text>
+    				<text class="message-bottom">50</text>
+    			</view>
+    			<view class="detail-message">
+    				<text class="message-top">腰围/cm</text>
+    				<text class="message-bottom">/</text>
+    			</view>
+    			<view class="detail-message">
+    				<text class="message-top">日常尺码</text>
+    				<text class="message-bottom">s</text>
+    			</view>
+    			<view class="detail-message">
+    				<text class="message-top">试穿尺寸</text>
+    				<text class="message-bottom">均码</text>
+    			</view>
+    			<view class="detail-message">
+    				<text class="message-top">试穿效果</text>
+    				<text class="message-bottom">合适</text>
+    			</view>
+    		</view>
+    	</view>
+    </view>
+
+	<view class="img-content">
+		<view class="detail-title">实拍图片</view>
+		<view class="detail-img">
+			<image mode="widthFix" src="/static/image/banner_shangpinzhuye.png"></image>
+		</view>
+		<view class="detail-img">
+			<image mode="widthFix" src="/static/image/banner_shangpinzhuye.png"></image>
+		</view>
+		<view class="detail-img">
+			<image mode="widthFix" src="/static/image/banner_shangpinzhuye.png"></image>
+		</view>
+	</view>
+
+	<view class="detail-bottom">
+		<view class="bottom-left">
+			<image src="/static/image/icon_shoucang.png"></image>
+			<view>收藏</view>
+		</view>
+		<view class="bottom-center">
+			<view>3件起批</view>
+			<view>100元</view>
+		</view>
+		<view class="bottom-right" bindtap="submitOrderPage">
+			<view>5件起批</view>
+			<view>95元</view>
+		</view>
+	</view>
+
+</view>
