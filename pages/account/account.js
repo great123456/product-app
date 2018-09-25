@@ -18,5 +18,10 @@ Page({
         const tempFilePaths = res.tempFilePaths
       }
     })
+  },
+  addressPage(){
+    wx.navigateTo({
+      url: '/pages/add-address/add-address'
+    })
   }
 })

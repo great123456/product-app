@@ -93,6 +93,11 @@ Page({
       url: '/pages/account/account'
     })
   },
+  shopPage(){
+    wx.navigateTo({
+      url: '/pages/shop/shop'
+    })
+  },
   guidePage(){
     wx.navigateTo({
       url: '/pages/guide/guide'

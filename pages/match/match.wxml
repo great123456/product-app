@@ -1,10 +1,10 @@
 <!-- 穿搭 -->
 <view class="container">
 	<view class="match-container">
-		<view class="match-option">
+		<view class="match-option" bindtap="matchDetailPage">
 			<image src="/static/image/banner-one.png" mode="widthFix"></image>
 		</view>
-		<view class="match-option">
+		<view class="match-option" bindtap="matchDetailsPage">
 			<image src="https://pocket-web-1256444651.cos.ap-guangzhou.myqcloud.com/banner-two.png" mode="widthFix"></image>
 		</view>
 		<view class="match-option">

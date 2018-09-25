@@ -22,7 +22,7 @@
 			<text>账号与密码</text>
 			<image class="message-icon" src="/static/image/icon_xiabu.png" mode="widthFix"></image>
 		</view>
-		<view class="account-item">
+		<view class="account-item" bindtap="addressPage">
 			<text>收货地址</text>
 			<image class="message-icon" src="/static/image/icon_xiabu.png" mode="widthFix"></image>
 			<text class="account-text">未设置</text>

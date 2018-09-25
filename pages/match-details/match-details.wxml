@@ -1,0 +1,6 @@
+<!--pages/match-details/match-details.wxml-->
+<view class="container">
+	<view class="banner">
+		<image src="https://hotelapi.hxgtech.com/upload/img/20180925/20180925223018-5baa467ab2c21.jpg" mode="widthFix"></image>
+	</view>
+</view>

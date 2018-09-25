@@ -1,0 +1,7 @@
+/* pages/match-details/match-details.wxss */
+.banner{
+	width: 100%;
+}
+.banner image{
+	width: 100%;
+}

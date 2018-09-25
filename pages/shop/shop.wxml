@@ -1,0 +1,55 @@
+<!--pages/shop/shop.wxml-->
+<view class="container">
+	<view class="shop-hint">
+		<image src="/static/image/icon_tongzhi.png" mode="widthFix"></image>
+		<text>收件人禁止出现"先生小姐"等不确定名字,否则不予寄出</text>
+	</view>
+    
+    <view class="manage">
+    	<text>广州发货</text>
+    	<text>管理</text>
+    </view>
+    
+    <view class="option">
+    	<view class="option-title">
+    		<image src="/static/image/icon_naozhong.png" mode="widthFix"></image>
+    		<text>距离截单仅剩</text>
+    		<text class="option-time">10</text>:
+    		<text class="option-time">09</text>:
+    		<text class="option-time">30</text>:
+    		<text class="option-time">6</text>
+    	</view>
+    	<view class="option-content">
+    		<view class="flex-between">
+    			<view style="position: relative;">
+    				<image src="/static/image/banner_shangpinzhuye.png" class="product-img"></image>
+    				<checkbox value="1" checked="{{checked}}" class="weui-check option-checked"/>
+    			</view>
+    			<view class="option-right">
+    				 <view>夏季网纱超薄外套透视</view>
+    				 <view class="option-right-content">
+    				 	<view>蓝色:S/1件</view>
+    				 	<view>蓝色:S/1件</view>
+    				 </view>
+    			</view>
+    		</view>
+    		<view class="option-bottom">
+    			<view class="price">￥99.99</view>
+    			<view class="edit-btn">编辑</view>
+    		</view>
+    	</view>
+    </view>
+
+	<view class="shop-bottom">
+		<view class="bottom-left">
+		  <checkbox value="全选" checked="{{checked}}"/>
+		  <text>全选</text>
+		</view>
+		<view class="bottom-right">
+			<text>合计:</text>
+			<text class="bottom-num">￥300</text>
+			<text class="bottom-btn">去结算</text>
+		</view>
+	</view>
+
+</view>

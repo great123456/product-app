@@ -13,7 +13,10 @@
     "pages/add-product/add-product",
     "pages/message/message",
     "pages/account/account",
-    "pages/guide/guide"
+    "pages/guide/guide",
+    "pages/shop/shop",
+    "pages/match-detail/match-detail",
+    "pages/match-details/match-details"
   ],
   "window": {
     "backgroundTextStyle": "light",

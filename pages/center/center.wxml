@@ -17,7 +17,7 @@
 
 	<view class="center-container">
 		<view class="center-order">
-			<view class="flex-between" style="padding-bottom:20rpx;border-bottom: 1px solid #f5f5f5;">
+			<view class="flex-between" style="padding-bottom:20rpx;border-bottom: 1px solid #f5f5f5;" bindtap="shopPage">
 				<text class="order-title">我的订单</text>
 				<view>
 					<text class="check-all">查看全部</text>
