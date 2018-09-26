@@ -53,7 +53,13 @@
   <view class="banner-option mr10">
     <image src="https://pocket-web-1256444651.cos.ap-guangzhou.myqcloud.com/banner3.png" mode="widthFix"></image>
   </view>
-  
+  <view class="banner-option mr10">
+    <image src="https://pocket-web-1256444651.cos.ap-guangzhou.myqcloud.com/banner4.png" mode="widthFix"></image>
+  </view>
+  <view class="banner-option mr10">
+    <image src="https://pocket-web-1256444651.cos.ap-guangzhou.myqcloud.com/banner5.png" mode="widthFix"></image>
+  </view>
+
   <view class="recommend-title">
       <text class="line line-left"></text>
       <text>猜你喜欢</text>
